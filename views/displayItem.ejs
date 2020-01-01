@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Display photo detail</title>
+    <link rel="stylesheet" href="/bootstrap_css/bootstrap.css" />
+
+	<style>
+		body {
+			background-color: #f9f9f9;
+		}
+
+		.detail {
+			border: 3em;
+		}
+
+		.header {
+			font-size: 2em;
+			padding: 0;
+		}
+
+		.login-ctn {
+			margin-top: 2em;
+		}
+	</style>
+
+	<script>
+		function goBack() { window.history.back(); }
+	</script>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+		
+			<h1 class="col-12  text-left"><%= title %></h1>
+			<h3 class="col-12 text-left font-weight-light"><%= description %></h3>
+			
+			<div class="col-8 text-left">
+				<img src=" data:<%= mimetype %>;base64, <%= photo %>" style="width:100%">
+				
+			</div>
+			<div class="col-4">
+				<div class = "row">
+					<div class="col-10 border">
+						
+						<p>Make: <%=make%> </p>
+
+					</div>
+
+					<div class="col-10 border">
+						
+						<p>Model : <%=model%></p>
+
+					</div>
+
+					<div class="col-10 border">
+						
+					<p>Created On : <%=date%></p>
+
+					</div>
+
+					<div class="col-10 border">
+						
+					<p>Location:<a href="<%=showMap%>">Map</a></p>
+
+					</div>
+			</div>
+				<div class = "row">
+					<a href="/" class="btn btn-primary">Home</a>
+					</div>
+			</div>
+		</div>
+
+
+			
+		</div>
+	</div>
+
+</body>
+
+</html>

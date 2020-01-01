@@ -1,0 +1,23 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.logo-ctn {
+    padding: 1em;
+}
+
+.logo {
+    width: 3em;
+}
+
+.header-bar {
+    background-color: #c5c5c5;
+}
+
+.logout-form {
+    margin: 0 1em;
+}
+
+.header {
+    margin: 0.5em 0;
+}

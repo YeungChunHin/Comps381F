@@ -1,0 +1,11 @@
+{
+  "name": "1186260",
+  "description": "A very simple Node.js app",
+  "author": "Yeung Chun Hin<s1186260@ouhk.edu.hk>",
+  "version": "1.0.0",
+  "dependencies": {},
+  "engine": "node >= 0.10.0",
+  "scripts": {
+  "start": "node server"
+  }
+  }

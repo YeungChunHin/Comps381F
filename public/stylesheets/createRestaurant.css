@@ -1,0 +1,19 @@
+.basic-info-div {
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+.address-div {
+    margin: 2.5em 0 1em 0;
+    border-bottom: 1px solid black;
+}
+
+.other-info-div {
+    margin: 2.5em 0 1em 0;
+    border-bottom: 1px solid black;
+}
+
+.submit-btn {
+    padding: 0;
+    margin-bottom: 1em;
+}
